@@ -166,7 +166,7 @@ def main():
     for i in range(0, 225, 25):
         url = 'https//movie.douban.com/top250?start={}'.format(i)
         log('url', url)
-        movies_from_url(url)
+        # movies_from_url(url)
         ms = movies_from_url(url)
         movies = movies + ms
     # log('movies', movies)

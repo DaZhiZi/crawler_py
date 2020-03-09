@@ -598,7 +598,20 @@ def movies_country_line_charts():
         },
     }
     forecast_line_charts(data, 24, 0, 5 / 2)
-
+# data = [
+#     {
+#         'id': 1,
+#         'country': 'rerg',
+#          'temp': 144,
+#         'color': '#FF7D40',
+#     },
+#    {
+#         'id': 2,
+#         'country': '',
+#          'temp': 144,
+#         'color': '#FF7D40',
+#     },
+# ]
 def movies_country_bar_charts():
     data = {
         '美': {
